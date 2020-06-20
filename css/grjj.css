@@ -1,0 +1,22 @@
+tr:nth-child(odd){
+    background: url(../img/title.png) no-repeat left center;
+    color: white;
+    height: 32px;
+}
+.content .td{
+    border-top: 3px solid rgb(8, 138, 138);
+}
+.content .td img{margin: 20px 40px;}
+.content .td #info{float: right;}
+.content .td #info #info-1{
+    float: left;
+    margin: 10px 40px;
+}
+.content .td #info #info-2{
+    float: right;
+    margin: 10px 40px;
+}
+.content .td .CP{
+    margin: 10px 40px;
+    line-height: 2.5;
+}

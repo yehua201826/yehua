@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/share.css">
+    <title>叶华の分享</title>
+</head>
+<body>
+    <header class="header">
+        <div class="inner">
+            <p>叶华|个人官方网站</p>
+        </div>  
+    </header>
+    <nav class="nav">
+        <div class="inner">
+            <ul>
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="./grjj.html">个人简介</a></li>
+                <li><a href="./xqah.html">兴趣爱好</a></li>
+                <li><a href="./picture.html">我的相册</a></li>
+                <li style="background-color: rgb(72, 172, 211,0.5);"><a href="./share.html">我的分享</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--conten内容区，包括图片元素和center部分以及b部分-->
+    <div class="content">
+        <!--图片元素-->
+        <img src="../img/enjoy.jpg" alt="">
+        <!--center部分，包括R部分和L部分-->
+        <div id="center">
+            <!--R部分，浮动靠右，包括form元素-->
+            <div id="R">
+                <!--form元素，包括图片元素，p元素，两个个label元素和一个button元素，作用为发送邮件-->
+                <form action="https://formspree.io/xknqzbpq" method="POST">
+                    <!--图片元素（QQ二维码）-->
+                    <img src="../img/erweima.png" alt="">
+                    <!--p元素，作为对上面图片元素的说明-->
+                    <p style="text-align: center;">加好友请备注姓名+"网站"！</p><br>
+                    <!--第一个label元素，包括p元素和input元素，允许用户填写自己邮箱-->
+                    <label>
+                        <p>你的邮箱：</p>
+                        <input type="email" name="email">
+                    </label>
+                    <!--end of label(1)-->
+                    <!--第二个label元素，包括p元素和input元素，允许用户填写留言-->
+                    <label>
+                        <p>留言：</p>
+                        <textarea name="message" rows="10" cols="28">欢迎给我留言！</textarea>
+                    </label>
+                    <!--end of label(2)-->
+                    <br><br>
+                    <!--button元素，点击即可发送邮件(通过Formspree)-->
+                    <button id="button" type="submit"> 发 送 </button>
+                </form>
+                <!--end of form-->           
+            </div>
+            <!--end of R-->
+            <!--L部分，包括三个L-row部分-->
+            <div id="L">
+                <!--第一个L-row部分，包括h3标题和六个链接-->
+                <div class="L-row">
+                    <h3>&nbsp;• 书 籍 电 影 推 荐 •</h3>
+                    <a href="https://www.douban.com/note/719170745/">
+                        《萧萧》:湘西田园生活中展开的美好人性对抗愚昧童养媳制度的无声之战。</a><br>
+                    <a href="https://www.douban.com/group/topic/5241653/">
+                        《封锁》:发生在电车封锁期间的一个由偶然调情引发内心解锁的短暂爱情之“梦”。</a><br>
+                    <a href="https://www.douban.com/group/topic/121070216/?refer=hot">
+                        《受戒》:讲述明海小和尚和小英子间平淡舒缓的朦胧爱情故事的散文风格小说。</a><br>
+                    <a href="https://www.douban.com/group/topic/27353401/">
+                        《风景》:河南棚子的一家人——社会底层人民悲惨冷酷的生存状态的真实缩影。</a><br>
+                    <a href="https://movie.douban.com/review/8651063/">
+                        《不汗党：坏家伙们的世界》（电影）:一个卧底警察被双反背叛的故事。</a><br>
+                    <a href="https://book.douban.com/subject/27176872/">     
+                        《鱼河岸小店》：你认为失败的人生也许是别人努力活着的结果。</a>
+                </div>
+                <!--end of L-row(1)-->
+                <!--第二个L-row部分，包括h3标题和四个链接-->
+                <div class="L-row">
+                    <h3>&nbsp;• 我 的 学 习 内 容 •</h3>
+                    <a href="https://blog.csdn.net/qq_22660775/article/details/89713867">C++反射机制</a><br>
+                    <a href="https://blog.csdn.net/yas12345678/article/details/52601578/">C++中list用法</a><br>
+                    <a href="https://blog.csdn.net/m0_37251750/article/details/81665466">C++读写xml</a><br>
+                    <a href="https://www.bilibili.com/video/av64605483">计算机网络原理微课</a>
+                </div>
+                <!--end of L-row(2)-->
+                <!--第三个L-row部分，包括h3标题和p元素-->
+                <div class="L-row">
+                    <h3>&nbsp;• 我 的 生 活 感 悟 •</h3>
+                    <p>
+                        我们主观上本想好好生活，可是客观上却没有好的生活，其原因是总想等待别人来改善生活，不要指望改变别人，自己做生活的主人。
+                        生命太短，没留时间给我们每日带着遗憾醒来。所以去爱那些对你好的人，忘掉那些不知珍惜你的人。世界真的很小，好像一转身，
+                        就不知道会遇见谁;世界真的很大，好像一转身，就不知道谁会消失。</p>
+                </div>
+                <!--end of L-row(3)-->
+            </div>
+            <!--end of L-->
+        </div>
+        <!--end of center-->
+        <!--b部分，居中放置内容（图片）-->
+        <div class="b">
+            <img src="../img/lisao.png" alt="路漫漫其修远兮，吾将上下而求索">
+            <img src="../img/qyuan.png" alt="——屈原《离骚》">
+        </div>
+    </div>
+    <!--end of content-->
+    <footer class="footer">
+        <div class="inner">
+            <div class="c">
+                <p>微博：@我是mayby</p>
+                <p>邮箱：2080941794@qq.com</p>
+                <p>QQ：2080941794</p>
+                <a href="#top">返回首部</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</body>
+</html>

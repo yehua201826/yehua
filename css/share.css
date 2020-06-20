@@ -1,0 +1,43 @@
+.content #center{
+    border: 1px solid rgb(8, 138, 138);
+    margin-bottom: 20px;
+    line-height: 2;
+}
+.content #center #L{
+    width: auto;
+    margin: 5px 10px 10px 0px;
+}
+.content #center #L .L-row{font-size: 15px;}
+.content #center #L .L-row h3{
+    margin-left: 10px;
+    background-color: rgb(8, 138, 138);
+    width: 160px;
+    border-radius: 10px;
+    color: white;
+}
+.content #center #L .L-row a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+.content #center #L .L-row a:hover{text-decoration: underline;}
+.content #center #L .L-row p{margin: 10px;}
+.content #center #R{
+    width: 220px;
+    margin: 10px 0px 10px 10px;
+    float: right;
+    line-height: 1.2;
+}
+.content #center #R p{
+    font-size: 12px;
+}
+.content #center #R #button{
+    position: relative;
+    top: 10px;
+    left: 80px;
+    background-color: rgb(8, 138, 138);
+    border-radius: 5px;
+    border: rgb(8, 138, 138);
+    color: white;
+    line-height: 1.5;
+}
